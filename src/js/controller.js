@@ -21,7 +21,6 @@ import 'regenerator-runtime/runtime';
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
-    // console.log(id);
     if (!id) return;
     recipeView.renderSpinner();
     //0.Update result view to mark selected search results
